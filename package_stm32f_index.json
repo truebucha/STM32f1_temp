@@ -1,0 +1,86 @@
+{
+  "packages": [
+    {
+      "maintainer": "STM32 Community", 
+      "help": {
+        "online": "http://stm32duino.com/"
+      }, 
+      "websiteURL": "https://github.com/rogerclarkmelbourne/Arduino_STM32", 
+      "platforms": [
+        {
+          "category": "STM32f", 
+          "name": "STM32 Boards", 
+          "url": "https://github.com/2.3.0.zip", 
+          "checksum": "SHA-256:884188a54bc75f1f2e7f827619f8cb1980dc3f430f92f9b07186ed7f4db8c738", 
+          "help": {
+            "online": "http://versions/2.3.0/"
+          }, 
+          "version": "0.1.2", 
+          "architecture": "STM32f1", 
+          "archiveFileName": "STM32-1.0.0.zip", 
+          "boards": [
+          ], 
+          "toolsDependencies": [
+            {
+              "packager": "STM32f",
+              "name": "upload",
+              "version": "1.0.0"
+            }
+          ], 
+          "size": "8595050"
+        }],
+      "tools": [
+        {
+          "version": "1.0.0", 
+          "name": "upload", 
+          "systems": [
+            {
+              "url": "http://..", 
+              "checksum": "SHA-256:10476b9c11a7a90f40883413ddfb409f505b20692e316c4e597c4c175b4be09c", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "win32-flashtool.tar.gz", 
+              "size": "153527527"
+            }, 
+            {
+              "url": "http://arduino.esp8266.com/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+              "checksum": "SHA-256:0cf150193997bd1355e0f49d3d49711730035257bc1aee1eaaad619e56b9e4e6", 
+              "host": "x86_64-apple-darwin", 
+              "archiveFileName": "win32-flashtool.tar.gz", 
+              "size": "35385382"
+            }, 
+            {
+              "url": "http://arduino.esp8266.com/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+              "checksum": "SHA-256:0cf150193997bd1355e0f49d3d49711730035257bc1aee1eaaad619e56b9e4e6", 
+              "host": "i386-apple-darwin", 
+              "archiveFileName": "win32-flashtool.tar.gz", 
+              "size": "35385382"
+            }, 
+            {
+              "url": "http://arduino.esp8266.com/linux64-xtensa-lx106-elf-gb404fb9.tar.gz", 
+              "checksum": "SHA-256:46f057fbd8b320889a26167daf325038912096d09940b2a95489db92431473b7", 
+              "host": "x86_64-pc-linux-gnu", 
+              "archiveFileName": "win32-flashtool.tar.gz", 
+              "size": "30262903"
+            }, 
+            {
+              "url": "http://arduino.esp8266.com/linux32-xtensa-lx106-elf.tar.gz", 
+              "checksum": "SHA-256:b24817819f0078fb05895a640e806e0aca9aa96b47b80d2390ac8e2d9ddc955a", 
+              "host": "i686-pc-linux-gnu", 
+              "archiveFileName": "win32-flashtool.tar.gz", 
+              "size": "32734156"
+            }, 
+            {
+              "url": "http://arduino.esp8266.com/linuxarm-xtensa-lx106-elf-g46f160f-2.tar.gz", 
+              "checksum": "SHA-256:f693946288f2ffa17288ef75ae16fa08573993f2b0a2a5e6bc35a68dc6087443", 
+              "host": "arm-linux-gnueabihf", 
+              "archiveFileName": "win32-flashtool.tar.gz", 
+              "size": "34938475"
+            }
+          ]
+        }
+      ],
+      "email": "ivan@esp8266.com", 
+      "name": "STM32f"
+    }
+  ]
+}
